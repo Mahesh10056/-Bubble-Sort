@@ -42,6 +42,13 @@ int main() {
             }
         }
     }
+  printf("Resultant matrix:\n");
+    for (int i = 0; i < r1; i++) {
+        for (int j = 0; j < c2; j++) {
+            printf("%d ", c[i][j]);
+        }
+        printf("\n");
+    }
 
-    printf("Resultant matrix:\n");
-    for (int i
+    return 0;
+}
